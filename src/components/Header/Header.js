@@ -29,26 +29,28 @@ const NavCenter = styled.div`
 `;
 
 const Input = styled.div`
+    height: 16px;
     font-size: 16px;
     border: solid 1px #dbdbdb;
     border-radius: 3px;
-    color: #999;
+    color: #262626;
+    padding: 7px 33px;
     cursor: text;
-    font-size: 14px;
     font-weight: 300;
     text-align: center;
     background: #fafafa;
 
     &:active,
     &:focus {
-        text-align: left;
+    text-align: left;
     }
 `;
 
 const NavRight = styled.div`
-    width: 33.33%
-    text-align: right;
-
+    width: 33.33%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
     svg {
         margin-right: 20px;
     }
@@ -64,7 +66,7 @@ function Header () {
                     Stylagram
                 </NavLeft>
                 <NavCenter>
-                    <input type="text" placeholder="Search" />
+                    <Input type="text" placeholder="Search" />
                 </NavCenter>
                 <NavRight>
                     <MenuLink href="#">

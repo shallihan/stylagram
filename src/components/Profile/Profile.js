@@ -4,7 +4,7 @@ import SingleImage from '../Image/Image';
 
 const feedsource =  [
     {
-        source: 'https://www.instagram.com/p/B2mFXfFooUdpDwDMdr5r17JJeobFb4kRhnZOWo0/media/?size=l',
+        source: 'https://images.unsplash.com/photo-1610138744455-b8b12579bbee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80',
         likes: '43',
         comments: '3',
         isVideo: false,
@@ -12,7 +12,7 @@ const feedsource =  [
     },
     {
         source:
-      'https://scontent-lhr3-1.cdninstagram.com/vp/f14456c901b071f5367c4a6032ec48b6/5C900EF8/t51.2885-15/e15/s320x320/14240675_192169101203223_495226036_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com',
+      'https://images.unsplash.com/photo-1590314900766-2977a0abcd28?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1408&q=80',
         likes: '313',
         comments: '10',
         isVideo: true,
@@ -20,7 +20,7 @@ const feedsource =  [
     },
     {
       source:
-        'https://scontent-lhr3-1.cdninstagram.com/vp/9e4e0f7667fe733406f88b9f86bdf84a/5D19E7B2/t51.2885-15/e35/s480x480/14262723_1219537941422458_2127857940_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com',
+        'https://images.unsplash.com/photo-1590954661624-9fc611a35ff5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1408&q=80',
       likes: '29',
       comments: '2',
       isVideo: false,
@@ -28,7 +28,7 @@ const feedsource =  [
     },
     {
       source:
-        'https://scontent-lhr3-1.cdninstagram.com/vp/3c9520014265a02a446841b20c529066/5D188BE1/t51.2885-15/e35/c135.0.810.810/s240x240/14294939_1218250054909378_1762757626_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com',
+        'https://images.unsplash.com/photo-1587128359627-407386073e2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1408&q=80',
       likes: '18',
       comments: '2',
       isVideo: false,
@@ -36,7 +36,7 @@ const feedsource =  [
     },
     {
       source:
-        'https://scontent-lhr3-1.cdninstagram.com/vp/34afcdf7b06fc1f4a6b1a0e7985ebe1a/5D24FDF9/t51.2885-15/e35/c135.0.810.810/s480x480/14240669_1005823466206583_2103344102_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com',
+        'https://images.unsplash.com/photo-1586430456905-be267908d9d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80',
       likes: '30',
       comments: '4',
       isVideo: false,
@@ -123,12 +123,12 @@ function Profile() {
         <ProfileContainer>
             <ProfileDetails>
                 <ProfileDetailsLeft>
-                    <ProfileImage src="https://api.adorable.io/avatars/285/abott@adorable.png" />
+                    <ProfileImage src="https://uifaces.co/our-content/donated/n4Ngwvi7.jpg" />
                 </ProfileDetailsLeft>
 
                 <ProfileDetailsRight>
                     <ProfileDetailsUsername>
-                        <HeadingThreeText>yomieluwande</HeadingThreeText>
+                        <HeadingThreeText>akhilnewman</HeadingThreeText>
                         <EditProfileButton>Edit profile</EditProfileButton>
                     </ProfileDetailsUsername>
 
@@ -137,16 +137,16 @@ function Profile() {
                             <strong>5</strong> posts
                         </ParagraphText>
                         <ParagraphText>
-                            <strong>296</strong> followers
+                            <strong>2296</strong> followers
                         </ParagraphText>
                          <ParagraphText>
-                             <strong>269</strong> following
+                             <strong>1269</strong> following
                         </ParagraphText>
                     </ProfileDetailsMeta>
 
                     <ProfileDetailsName>
                         <ParagraphText>
-                            <strong>Yomi</strong>
+                            <strong>Akhil Newman</strong>
                         </ParagraphText>
                     </ProfileDetailsName>
                 </ProfileDetailsRight>
