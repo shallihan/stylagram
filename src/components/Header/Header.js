@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { ReactComponent as Liked } from '../../svg/heart.svg';
 import { ReactComponent as Send } from '../../svg/send.svg';
-import { ReactComponent as Compass } from '../../svg/compass.svg'; 
+import { ReactComponent as Explore } from '../../svg/explore.svg'; 
 
 const Nav = styled.div`
 background-color: #fff;
@@ -73,7 +73,7 @@ function Header () {
                         <Send />
                     </MenuLink>
                     <MenuLink href="#">
-                       <Compass />
+                       <Explore />
                     </MenuLink>
                     <MenuLink href="#">
                         <Liked />
